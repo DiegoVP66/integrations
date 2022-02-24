@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.dvpdev.integrations.dto.EmailDTO;
 import com.dvpdev.integrations.services.EmailService;
 
+
 @RestController
 @RequestMapping(value = "/emails")
 public class EmailController {
